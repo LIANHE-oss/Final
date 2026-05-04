@@ -1,0 +1,105 @@
+
+/* i used grids because i wanted to learn how to use them. i'm trying to learn how to use flexbox but it seems more complicated than grids to me. */
+
+.box{
+    max-width: 1000px;
+    margin: 50px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 250px minmax(0,1fr);
+}
+header{
+ grid-row: 1 / 2;
+ grid-column: 1 / 3;
+ height: 100px;
+ margin: auto;
+ filter: drop-shadow(5px 5px 3px rgb(228, 228, 228));
+
+}
+
+p{
+  font-size: large;
+}
+
+.logo{
+     height: 94px
+ }
+
+ main{
+ border: 3px outset #9e1c1c;   
+ border-radius: 10px;
+ grid-row: 2 / 3;
+ grid-column: 1 / 3;
+ height: max-content;
+ background-image: url(images/paper.png);
+ height: 500px;
+ padding: 20px 30px 20px 20px;
+ font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.divider{
+  height: 30px;
+  margin-left: 270px;
+}
+
+.me{
+  float: right;
+  width: 250px; 
+  height: auto;
+  filter: drop-shadow(10px 10px 3px rgb(39, 39, 39));
+  margin-left: 5px;
+}
+
+.song{
+    color: #9e1c1c;  
+    font-size: 20px;
+}
+
+.continue{
+  text-align: center;
+  color: #9e1c1c; 
+}
+
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+  
+
+/* img{
+  overflow-clip-margin: box;
+    overflow: clip;
+}
+
+    figuring out overflow-clip-margin and overflow
+*/
+
+/*i didnt want the footer on this page, but i kept it in html and css so i could use it for another part of the website 
+footer{
+ 
+ border-radius: 10px;
+ grid-row: 3 / 4;
+ grid-column: 1 / 3;
+ 
+ height: 25px;
+ padding: 10px 20px 10px 20px;
+ font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+   text-align: center;
+}
+*/
+
+
+body {
+ background-image: url("images/fashionbg.jpg");
+}
+
+
+ 
+

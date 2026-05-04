@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
+    <title>Home</title>
+      <link rel="icon" type="image/x-icon" href="images/favicon.png">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,22 +13,42 @@
 </head>
 <body>
 
+ <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script src="https://code.jquery.com/ui/1.14.2/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#dialog" ).dialog();
+  } );
+  </script>
+</head>
+<body>
+ 
+<div id="dialog" title="Welcome!!">
+  <p>Welcome to my website! Enjoy your stay! ★</p>
+  <img src="images/skullgif.gif" height="80px">
+  <img src="images/notesgif.gif" height="60px">
+</div>
+ 
+
+
 <div class="box">
     <header>
        <img src="images/logo.png" alt="logo" class="logo"> <!-- I made this logo myself using Blender, I'm planning on making more Blender animations to go with the website theme. -->
     </header>
 
     <nav>
-             ⋆⋅☆⋅⋆
+             ︵‿₊⋆⋅☆⋅⋆₊‿︵
              <br>
              <br>
-        <a href="index.html">Home</a>
+        <a href="index.html"><b>Home</b></a>
         <br>
         <br>
-        <a href="about.html">About</a>
+        <a href="about.html"><b>About</b></a>
         <br>
         <br>
-        <a href="index.html">Projects</a>
+        <a href="blog.html"><b>Blog</b></a>
         <br>
         <br>
 
@@ -36,7 +57,33 @@
              <br>
              <br>
 
-        <marquee>
+        <img src="images/kitty.png" alt="kitty" height="60px">
+        <img src="images/maxwell.gif" alt="spinning cat" height="60px">
+        <img src="images/planetgif.gif" alt="face" height="60px" class="down">
+    </nav>
+
+    <main>
+
+
+
+
+
+        <h2>Hello, Welcome to Stereobyte!</h2>
+        <h4>I hope you enjoy your time here. :)</h4>
+        <p>This is a personal blog of mine where I talk about my interests in music and counterculture. I created this website with help from W3 Schools and a few YouTube videos. 
+            I feel like making this website was a bit of a challenge, but it was a very fun process and I'd definitely do it again.</p>
+             <img src="images/notesgif.gif" alt="music notes" height="100px" class="notes"> <p>This website is a mix of a few of my favorite things. Purple, which is my absolute favorite color, I adore anything purple. 
+                Music, everything in my life is based in music. It makes me who I am and it means so much to me. And finally, nostalgia. This website is supposed to mimic the websites I used to use as a kid. 
+                It's my favorite website aesthetic and I think we should cherish old web design again, even if it's considered "ugly" or "outdated".</p>   <img src="images/badwebdesign.gif" alt="bad website design" height="20px">
+
+             <marquee class="mainmarquee">
+            <img src="images/maxwell.gif" alt="spinning cat" height="60px" class="mainmax">
+        </marquee>
+    </main>
+
+    <footer>
+        
+            <marquee>
              <img src="images/stars.gif" alt="stars">
              <img src="images/music.gif" alt="music">
              <img src="images/heart.gif" alt="heart">
@@ -44,16 +91,6 @@
              <img src="images/blinkies.gif" alt="blinkies">
              <img src="images/cats.gif" alt="cats">
         </marquee>
-    </nav>
-
-    <main>
-        Main
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius ullam praesentium quasi. Repellendus magnam nesciunt hic tempora! Quae maxime dolor dignissimos asperiores? Ut molestias error esse voluptas! Quas, quis perspiciatis.
-    </main>
-
-    <footer>
-        
-            ‧₊˚♪ 𝄞₊˚⊹ Created by Lilly Herrera ‧₊˚♪ 𝄞₊˚⊹
     
     </footer>
 </div>
